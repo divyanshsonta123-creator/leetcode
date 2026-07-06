@@ -27,7 +27,7 @@ class Solution {
         }
 
         max=Math.max(count,max);
-         if(i < arr.length && arr[i] == 0){
+         if(i < arr.length && arr[i] != 1){
         i++;
     }
         return cos(arr,i,max);
